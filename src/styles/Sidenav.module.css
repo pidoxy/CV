@@ -1,0 +1,67 @@
+.sidenav{
+    background-color: #C0D8DE;
+    flex: 0.4;
+    min-width: 2rem !important;
+    padding: 2.5rem 1rem;
+    text-align: center;
+}
+
+.sidenav__image{
+    width: 60%;
+    border-radius: 50%;
+} 
+
+.sidenav__name{
+    padding: 1rem 0.5rem 0.5rem;
+    font-size: 2rem;
+}
+
+.sidenav__role{
+    padding: 0 0.5rem 1.5rem;
+    color: #666666;
+    font-size: 0.8rem;
+}
+
+.sidenav_profile_text{
+text-align: start;
+font-size: 1rem;
+line-height: 1.3rem;
+}
+
+hr {
+    border: none;
+    height: 0.5px;
+
+    background-color: #333;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.contact__head{
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+.contact__body{
+    font-size: 0.7rem;
+    font-weight: 200;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+.skills{
+display: flex;
+padding: 1rem 2rem;
+}
+
+.skills > p{
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif;;
+    }
+
+.skillbar{
+    width: 20%;
+    margin-left: auto;
+}
