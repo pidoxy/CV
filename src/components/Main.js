@@ -28,7 +28,7 @@ function Main() {
                     <img style={{ paddingLeft: '0.2rem', paddingRight: '0.2rem' }} src={LinkedIn} alt="icon" /><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/emmanuelidoko/" >linkedin.com/in/emmanuelidoko/</a>
                 </div>
                 <div >
-                    <span style={{ marginLeft: '0.2rem', marginBottom: '-0.1rem', marginRight: '0.2rem' }} className="iconify" data-icon="simple-icons:devpost"></span><a target="_blank" rel="noreferrer" href="https://devpost.com/pidoxy" >devpost.com/pidoxy</a>
+                    <span style={{ marginLeft: '0rem', marginBottom: '-0.1rem', marginRight: '0.2rem' }} className="iconify" data-icon="simple-icons:devpost"></span><a target="_blank" rel="noreferrer" href="https://devpost.com/pidoxy" >devpost.com/pidoxy</a>
                 </div>
             </div>
         )
@@ -42,11 +42,10 @@ function Main() {
 
             <Header name="University Of Lagos" />
             <Date startDate={2021} endDate={2025} />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p> BSc. Computer Science </p>
 
             <Header name="Apostolic Faith Secondary School" />
             <Date startDate={2012} endDate={2018} />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
             <HeaderBox name="PROFESSIONAL SKILLS" />
             <div className={MainStyles.skills__container}>
@@ -79,7 +78,7 @@ function Main() {
             <Header name="Ietech - Frontend developer intern" />
             <Date startDate={"May 2020"} endDate={"August 2020"} />
 
-            <p style={{ textAlign: 'start', marginBottom: '0.5rem' }}>Worked with javascript ejs templating, Consumed API endpoints, Implemented website designs into websites, Implemented Search Engine Optimization(SEO) in websites, Worked as a team player, Implemented subscribe email feature using php , Worked with mysql and mongodb databases, Worked with express js and node js in routing webpages, Used version control systems(git, GitHub)</p>
+            <p style={{ marginBottom: '0.5rem' }}>Worked with javascript ejs templating, Consumed API endpoints, Implemented website designs into websites, Implemented Search Engine Optimization(SEO) in websites, Worked as a team player, Implemented subscribe email feature using php , Worked with mysql and mongodb databases, Worked with express js and node js in routing webpages, Used version control systems(git, GitHub)</p>
             <ul>
                 <li><a target="_blank" rel="noreferrer" href="https://employee-profile-edit.netlify.app/">employee-profile-edit.netlify.app</a> </li>
                 <li><a target="_blank" rel="noreferrer" href="https://super-nigerians-landing-page.netlify.app/">super-nigerians-landing-page.netlify.app</a></li>
@@ -99,7 +98,7 @@ function Main() {
             <Date startDate={"Februrary 2021"} endDate={"present"} />
             <p>Built a project using react and several other frameworks to solve a national issue the organisation is facing:
 
-                <li style={{ textAlign: 'start', paddingTop: '1rem' }}>The project is about making report submission nationwide easier, centralised, less volatile and more secure, session management, login logout, posting, getting, updating records are all implemented in this project.</li>
+                <li style={{ paddingTop: '1rem' }}>The project is about making report submission nationwide easier, centralised, less volatile and more secure, session management, login logout, posting, getting, updating records are all implemented in this project.</li>
             </p>
             <div className={MainStyles.ingressive}>
                 <p>cc:@Ingressive4good</p>

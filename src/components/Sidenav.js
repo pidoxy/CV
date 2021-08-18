@@ -19,7 +19,7 @@ function Sidenav() {
                     <br /><br />
                     📚 I have built several projects, taken part in hackathons and have interned as a frontend developer
                     <br /><br />
-                    💻 I love building products and solutions with code, I am an active hacker and have participated in several <a href="https://devpost.com/pidoxy">hackathons</a> hope to work/intern at Netlify, Google, Microsoft, Apple, Netflix, Amazon and amazing startups in the nearest future
+                    💻 I love building products and solutions with code, I am an active hacker and have participated in several <a href="https://devpost.com/pidoxy">hackathons</a>
                     <br /><br />
                     🌿I love creating product designs, UI/UX designs
                     <br /><br />

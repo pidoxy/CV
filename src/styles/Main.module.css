@@ -42,7 +42,6 @@ li {
 
 a {
     color: #222;
-
 }
 
 .links{
@@ -66,21 +65,18 @@ margin-bottom: -3px;
 .links > div:first-child{
     position: absolute;
     top:-80px;
-
 }
 
 .links > div:last-child{
     position: absolute;
     top:-80px;
     right: -10px;
-
 }
 
 .links > div:nth-child(2){
     position: absolute;
     top:-30px;
     left: 25%;
-
 }
 
 .ingressive{
@@ -89,5 +85,90 @@ margin-bottom: -3px;
 
 .ingressive * img{
     width: 15%;
+}
 
+/* Tablet */
+@media only screen and (max-width: 768px) {
+
+    .links{
+        font-size: 0.7rem;
+    }
+
+    .links > div:first-child{
+        position: absolute;
+        top:-80px;
+        left: -10px;
+    }
+    
+    .links > div:last-child{
+        position: absolute;
+        top:-78px;
+        right: -10px;
+    }
+    
+    .links > div:nth-child(2){
+        position: absolute;
+        top:-40px;
+        left: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .main{
+        flex: 1;
+       padding: 0 2rem 3rem;
+    }
+
+    .links{
+        font-size: 0.6rem;
+    }
+
+    .links > div:first-child{
+        position: absolute;
+        top:-80px;
+        left: -25px;
+    }
+    
+    .links > div:last-child{
+        position: absolute;
+        top:-74px;
+        right: -20px;
+    }
+    
+    .links > div:nth-child(2){
+        position: absolute;
+        top:-40px;
+        left: 20%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .links{
+        font-size: 0.6rem;
+    }
+    
+    .links > div:nth-child(2){
+        position: absolute;
+        top:-40px;
+        left: 14%;
+    } 
+}
+
+@media only screen and (max-width: 320px) {
+
+    .main{
+       padding: 0 1rem 3rem;
+    }
+
+    .links{
+        font-size: 0.6rem;
+    }
+    
+    .links > div:nth-child(2){
+        position: absolute;
+        top:-40px;
+        left: 8%;
+    } 
 }

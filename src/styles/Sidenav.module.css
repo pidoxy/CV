@@ -65,3 +65,20 @@ padding: 1rem 2rem;
     width: 20%;
     margin-left: auto;
 }
+
+/* Tablet Screens */
+/* @media only screen and (max-width: 768px) {
+    .sidenav{
+flex: 0.5;    }
+
+
+} */
+
+/* Small screens */
+@media only screen and (max-width: 425px) {
+    .sidenav{
+flex: 1 ; 
+   }
+
+
+}
